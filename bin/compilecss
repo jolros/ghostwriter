@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sass -t expanded assets/sass/style.scss assets/css/style.css

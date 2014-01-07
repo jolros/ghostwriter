@@ -2,7 +2,7 @@
 // Colours //
 // ============================================================ //
 
-$primary: #F03838;
+$primary: #EB2D7C;
 $secondary: #303030;
 $background: #FEFEFE;
 
@@ -16,7 +16,7 @@ body {
     background: $background;
     color: #424242;
     font-family: "Open Sans", arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -147,7 +147,7 @@ pre {
     padding: 100px 0 35px;
     overflow: auto;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .site-title-wrapper {
@@ -160,7 +160,7 @@ pre {
     font-size: 14px;
     font-weight: 600;
     margin: 0;
-    text-transform: uppercase;
+     text-transform: uppercase;
 
     a {
         float: left;
@@ -178,21 +178,24 @@ pre {
 
 #latest-post { display: none; }
 
-.post { margin: 0 40px; }
+.post { margin: 0 20px; }
 
 .post-header {
-    border-bottom: 6px solid $secondary;
-    margin: 0 0 50px;
-    padding: 0 0 80px;
+    /* border-bottom: 6px solid $secondary; */
+    /* margin: 0 0 50px; */
+    padding: 0 0 40px;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    a {
+        color: #424242;
+    }
 }
 
 .post-title {
-    font-size: 52px;
+    font-size: 36px;
     font-weight: 700;
     margin: 15px 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .post-date {
