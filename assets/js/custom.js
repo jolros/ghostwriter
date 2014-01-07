@@ -1,14 +1,17 @@
 (function ($) {
 
     $(document).ready(function(){
-
-        styleCode();
-
+        styleCodeHighlightJs();
+        //styleCodeGooglePrettify();
     });
 
 }(jQuery));
 
-function styleCode() {
+function styleCodeHighlightJs() {
+    $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+}
+
+function styleCodeGooglePrettify() {
     if (typeof disableStyleCode != "undefined") { return; }
     var makePretty = false;
     
