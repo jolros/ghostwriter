@@ -415,6 +415,10 @@ code {
 /* Media Queries */
 /* ============================================================ */
 @media only screen and (max-width: 600px) {
+  .site-header {
+    padding-top: 35px;
+  }
+
   .post-stub-title {
     display: block;
   }
