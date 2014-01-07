@@ -78,6 +78,10 @@ pre {
     border-radius: 3px;
     margin: 0 0 40px;
     padding: 15px 20px;
+
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
 }
 
 ::selection {
